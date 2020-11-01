@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var Stdlib_string = require("../stdlib.cma.js/Stdlib__string.js");
 var Stdlib_char = require("../stdlib.cma.js/Stdlib__char.js");
 var Poly = [0];

@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_format_int = runtime["caml_format_int"];
 var string = runtime["caml_new_string"];
 

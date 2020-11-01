@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_obj_tag = runtime["caml_obj_tag"];
 var Stdlib_obj = require("./Stdlib__obj.js");
 var CamlinternalLazy = require("./CamlinternalLazy.js");

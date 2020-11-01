@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var cst_Stdlib_Pervasives_Exit = runtime["caml_new_string"]("Stdlib.Pervasives.Exit"
 );
 var Stdlib = require("./Stdlib.js");

@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_ba_change_layout = runtime["caml_ba_change_layout"];
 var caml_ba_create = runtime["caml_ba_create"];
 var caml_ba_dim_1 = runtime["caml_ba_dim_1"];

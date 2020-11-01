@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var console = runtime["caml_js_get_console"](0);
 var Js_of_ocaml_Firebug = [0,console];
 

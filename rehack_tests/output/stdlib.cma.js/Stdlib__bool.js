@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var string = runtime["caml_new_string"];
 var cst_true = string("true");
 var cst_false = string("false");

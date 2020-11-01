@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_bytes_get = runtime["caml_bytes_get"];
 var caml_check_bound = runtime["caml_check_bound"];
 var caml_create_bytes = runtime["caml_create_bytes"];

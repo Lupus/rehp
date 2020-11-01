@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_array_get = runtime["caml_array_get"];
 var caml_array_set = runtime["caml_array_set"];
 var caml_float_compare = runtime["caml_float_compare"];

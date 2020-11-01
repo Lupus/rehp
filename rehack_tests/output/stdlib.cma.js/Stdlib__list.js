@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_compare = runtime["caml_compare"];
 var string = runtime["caml_new_string"];
 var caml_wrap_thrown_exception = runtime["caml_wrap_thrown_exception"];

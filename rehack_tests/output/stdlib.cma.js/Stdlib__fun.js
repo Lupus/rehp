@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_restore_raw_backtrace = runtime["caml_restore_raw_backtrace"];
 var caml_wrap_thrown_exception_reraise = runtime
  ["caml_wrap_thrown_exception_reraise"];

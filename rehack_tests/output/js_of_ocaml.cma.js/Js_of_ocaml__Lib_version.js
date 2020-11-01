@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var string = runtime["caml_new_string"];
 var s = string("3.3.0");
 var git_version = string("no-git-version-");

@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var helperVal = runtime["caml_new_string"]("hello");
 var StringHelper = [0,helperVal];
 

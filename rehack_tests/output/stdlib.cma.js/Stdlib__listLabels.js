@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var Stdlib_list = require("./Stdlib__list.js");
 var length = Stdlib_list[1];
 var compare_lengths = Stdlib_list[2];

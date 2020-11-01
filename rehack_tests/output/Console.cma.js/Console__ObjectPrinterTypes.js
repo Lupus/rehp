@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var ObjectPrinter = [0];
 var Console_ObjectPrinterTypes = [0,ObjectPrinter];
 

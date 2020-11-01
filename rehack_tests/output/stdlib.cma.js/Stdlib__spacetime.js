@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var string = runtime["caml_new_string"];
 var caml_spacetime_enabled = runtime["caml_spacetime_enabled"];
 var caml_spacetime_only_works_for_native_code = runtime

@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_register_named_value = runtime["caml_register_named_value"];
 var Stdlib_obj = require("./Stdlib__obj.js");
 

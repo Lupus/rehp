@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_int64_compare = runtime["caml_int64_compare"];
 var caml_int64_mul = runtime["caml_int64_mul"];
 var caml_int64_sub = runtime["caml_int64_sub"];

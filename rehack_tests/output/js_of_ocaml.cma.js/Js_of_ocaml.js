@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var Js_of_ocaml = [0];
 
 module.exports = Js_of_ocaml;

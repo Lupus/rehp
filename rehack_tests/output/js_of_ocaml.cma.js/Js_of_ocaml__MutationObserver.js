@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_get_public_method = runtime["caml_get_public_method"];
 
 function call1(f, a0) {

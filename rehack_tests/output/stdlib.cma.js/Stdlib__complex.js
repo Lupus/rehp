@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var zero = [254,0,0];
 var one = [254,1,0];
 var i = [254,0,1];

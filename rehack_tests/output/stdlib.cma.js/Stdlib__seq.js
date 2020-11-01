@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_trampoline = runtime["caml_trampoline"];
 var caml_trampoline_return = runtime["caml_trampoline_return"];
 

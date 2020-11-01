@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 
 function erase_rel(param) {
   if (typeof param === "number") return 0;

@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_ml_string_length = runtime["caml_ml_string_length"];
 var string = runtime["caml_new_string"];
 var caml_obj_tag = runtime["caml_obj_tag"];

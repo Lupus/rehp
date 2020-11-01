@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var Stdlib_set = require("./Stdlib__set.js");
 var Stdlib_map = require("./Stdlib__map.js");
 var Stdlib_hashtbl = require("./Stdlib__hashtbl.js");

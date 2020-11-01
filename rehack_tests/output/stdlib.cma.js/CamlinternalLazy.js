@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_obj_set_tag = runtime["caml_obj_set_tag"];
 var caml_obj_tag = runtime["caml_obj_tag"];
 var caml_wrap_thrown_exception = runtime["caml_wrap_thrown_exception"];

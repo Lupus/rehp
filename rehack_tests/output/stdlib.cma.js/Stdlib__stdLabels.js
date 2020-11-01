@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var Stdlib_stdLabels = [0];
 
 module.exports = Stdlib_stdLabels;

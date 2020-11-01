@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var CamlinternalOO = require("./CamlinternalOO.js");
 var copy = CamlinternalOO[22];
 var new_method = CamlinternalOO[1];

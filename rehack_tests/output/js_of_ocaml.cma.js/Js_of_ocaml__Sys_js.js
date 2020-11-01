@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var caml_js_wrap_callback = runtime["caml_js_wrap_callback"];
 var string = runtime["caml_new_string"];
 

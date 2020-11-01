@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var Console_NativeChannels = [0];
 
 module.exports = Console_NativeChannels;

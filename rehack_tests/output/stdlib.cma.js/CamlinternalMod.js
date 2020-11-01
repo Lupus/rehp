@@ -8,7 +8,7 @@
 
 "use strict";
 
-var runtime = require("../runtime/runtime.js");
+var runtime = require("../runtime.js");
 var update_mod = runtime["caml_CamlinternalMod_update_mod"];
 var init_mod = runtime["caml_CamlinternalMod_init_mod"];
 var CamlinternalMod = [0,init_mod,update_mod];
